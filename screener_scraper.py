@@ -127,6 +127,7 @@ def main():
                 plt.xlabel('Sales Growth(%)')
                 plt.ylabel('Time Period')
                 plt.title('Compounded Sales Growth (CSG)')
+                plt.yticks(range(len(df.columns)), df.iloc[0])
                 st.pyplot(plt)
 
             with right_chart:
@@ -136,6 +137,7 @@ def main():
                 plt.xlabel('Profit Growth(%)')
                 plt.ylabel('Time Period')
                 plt.title('Compounded Profit Growth (CPG)')
+                plt.yticks(range(len(df.columns)), df.iloc[0])
                 st.pyplot(plt)
 
             # -------Add user inputs and calculations for intrinsic PE and degree of overvaluation-------
