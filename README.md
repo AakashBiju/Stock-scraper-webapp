@@ -2,6 +2,7 @@
 
 Stock Data Scraper is a web application built using Streamlit, Python, and data scraping techniques to fetch and display essential stock data including market information, financial ratios, growth rates, and more. 
 This implements a growth-RoC DCF model with explicit fade period
+URL: https://aakashbiju-stock-scraper-webapp-screener-scraper-zuassv.streamlit.app/
 
 ## Table of Contents
 
@@ -48,7 +49,7 @@ To run the application locally, follow these steps:
 
 ## Usage
 
-1. Enter the NSE/BSE symbol of the company in the input field.
+1. Enter the NSE/BSE symbol of the company in the input field. Some examples inputs: nestleind, adanient, wipro.
 2. Click the "Get Stock Data" button to fetch and display the stock data.
 3. Adjust the sliders in the right pane to change user inputs for intrinsic PE and degree of overvaluation calculations.
 
